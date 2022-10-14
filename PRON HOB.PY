@@ -84,20 +84,23 @@ def banner():
  
  
  
- _____ ___   _      _   _   ___  
-|_   _/ _ \ | |    | | | | / _ \ 
-  | |/ /_\ \| |    | |_| |/ /_\ \
-  | ||  _  || |    |  _  ||  _  |
-  | || | | || |____| | | || | | |
-  \_/\_| |_/\_____/\_| |_/\_| |_/
+ ______   __    __  ________  ______        
+ /      \ /  \  /  |/        |/      \       
+/$$$$$$  |$$  \ $$ |$$$$$$$$//$$$$$$  |      
+$$ |__$$ |$$$  \$$ |   $$ |  $$ |  $$ |      
+$$    $$ |$$$$  $$ |   $$ |  $$ |  $$ |      
+$$$$$$$$ |$$ $$ $$ |   $$ |  $$ |  $$ |      
+$$ |  $$ |$$ |$$$$ |   $$ |  $$ \__$$ |      
+$$ |  $$ |$$ | $$$ |   $$ |  $$    $$/       
+$$/   $$/ $$/   $$/    $$/    $$$$$$/
                                
                                 
  
                       
 \x1b[92;1m===================================>\x1b[92;1m
-\x1b[93;1m Author       \x1b[92;1m=>      \x1b[93;1mTalha islam
-\x1b[93;1m Whatsapp     \x1b[92;1m=>      \x1b[93;1m+8801304002896
-\x1b[93;1m YouTube       \x1b[92;1m=>      \x1b[93;1mTalha Technology channel
+\x1b[93;1m Author       \x1b[92;1m=>      \x1b[93;1m     
+\x1b[93;1m Whatsapp     \x1b[92;1m=>      \x1b[93;1m+880130****
+\x1b[93;1m YouTube       \x1b[92;1m=>      \x1b[93;1m   
 \x1b[92;1m===================================>\x1b[92;1m
 """%(h))
 		
@@ -112,10 +115,10 @@ def menu(): #Bilo
 	if farhan in ['1','01']:
 		File2()
 	elif farhan in ['0','00']:
-		os.system("xdg-open https://youtube.com/c/TalhaTechnologychannel")
+		os.system("xdg-open https://www.facebook.com/ANTO.THE.GAME.CHANGER")
 		exit()
 	else:
-		os.system("https://youtube.com/c/TalhaTechnologychannel")
+		os.system("https://www.facebook.com/ANTO.THE.GAME.CHANGER")
 		exit()
  
 def File2():
@@ -131,8 +134,8 @@ def File2():
  
 def setting():
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
-	print("""%s \33[1;33m[01] Farward Cracking """%(h))
-	print("""%s \33[1;33m[02] Reverse Cracking """%(h))
+	print("""%s \33[1;33m[01] BLACK PINK FUCKING """%(h))
+	print("""%s \33[1;33m[02] BTS FUCKING """%(h))
 	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	mubashar = input(x+'\33[1;96m•Input Number>')
 	if mubashar in ['1','01']:
@@ -200,7 +203,7 @@ def crack2(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	print('\r%s [TALHA] %s/%s  OK*%s | CP*%s => %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
+	print('\r%s [BTS GAY😂] %s/%s  OK*%s | CP*%s => %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
 	ua = random.choice(ugen).replace('\n','')
 	ses = requests.Session()
 	for pw in pwv:
@@ -212,7 +215,7 @@ def crack2(idf,pwv):
 					akun.append(idf+'|'+pw)
 					ceker(idf,pw)
 				else:
-					print('\r%s [TALHA-CP] %s|%s        '%(b,idf,pw))
+					print('\r%s [FUCK BTS-CP😭] %s|%s        '%(b,idf,pw))
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
